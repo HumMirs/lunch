@@ -1,0 +1,146 @@
+.third_img {
+    background-image: url(https://scienceplay.com/wp-content/uploads/2022/05/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+    position: relative;
+    width: 90%;
+    border-radius: 50px;
+    height: 600px;
+    background-size: cover;
+    margin: 80px auto;
+}
+
+.third_img h3 {
+    color: white;
+    /* position: absolute;
+    top: 280px;
+    left: 40px; */
+}
+
+.third_img h2 {
+    color: white;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    font-size: 50px;
+    width: 40%;
+    line-height: 55px;
+}
+
+.third_img button {
+    position: absolute;
+    top: 510px;
+    left: 30px;
+    background-color: rgb(243, 177, 55);
+    color: white;
+    padding: 18px 45px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.third_img button:hover {
+    background-color: rgb(231, 193, 123);
+    color: black;
+}
+
+.address_container {
+    width: 90%;
+    background-color: white;
+    border-radius: 50px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.round {
+    position: absolute;
+    top: 20px;
+    background-color: #99e54d;
+    border-radius: 300px;
+    font-size: 25px;
+    width: 20%;
+    height: 37%;
+    margin: 20px;
+}
+
+.round h1 {
+    font-size: 70px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.round h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.address_h2 {
+    position: absolute;
+    top: 400px;
+    color: black;
+    font-size: 60px;
+    width: 40%;
+    left: 30px;
+}
+
+.address_container button {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    background-color: rgb(243, 177, 55);
+    color: white;
+    padding: 15px 45px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.address_container button:hover {
+    background-color: rgb(238, 198, 123);
+}
+
+.flex_container {
+    display: flex;
+}
+
+.contact_us {
+    position: relative;
+    left: 580px;
+    height: 600px;
+    top: 100px;
+}
+
+.child_div {
+    display: flex;
+}
+
+.img1 {
+    padding: 15px;
+    background-color: #99e54d;
+    width: 9%;
+    border-radius: 60px;
+    margin-top: 20px;
+    height: 100px;
+    margin-right: 30px;
+}
+
+.child_div img {
+    width: 100%;
+}
+
+.child_div h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.child_div p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.child_div a {
+    color: #f1ae0e;
+    text-decoration: none;
+    font-size: 18px;
+}

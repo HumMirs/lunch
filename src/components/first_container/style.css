@@ -1,0 +1,81 @@
+.img-container {
+  width: 90%;
+  display: flex;
+  margin: 5px auto;
+}
+
+.img-container div {
+  width: 23%;
+  margin: 1%;
+}
+
+.img-container img {
+  width: 100%;
+  border-radius: 40px;
+  height: 235px;
+}
+
+.img-container h2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+}
+
+.view {
+  margin: 5px auto;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 55px;
+}
+
+.img-container button {
+  background-color: rgb(243, 177, 55);
+  margin-left: 18%;
+  margin-top: 15px;
+  color: white;
+  padding: 15px 45px;
+  border-radius: 30px;
+  border: none;
+  font-weight: normal;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.img-container button:hover {
+  background-color: rgb(180, 128, 31);
+}
+
+.contact-container {
+  background-color: #99e54d;
+  width: 100%;
+  height: 400px;
+  padding: 50px 15px;
+  margin-top: 80px;
+}
+
+.contact-container div {
+  background-color: white;
+  width: 90%;
+  border-radius: 60px;
+  height: 280px;
+  margin: 10px auto;
+}
+
+.contact-container h2 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contact-container a {
+  font-size: 38px;
+  margin-left: 35%;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.contact-container a:hover {
+  color: #99e54d;
+}

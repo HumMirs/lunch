@@ -1,0 +1,76 @@
+.list-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  cursor: pointer;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.list-container li {
+  width: 10%;
+}
+
+.list-container li:hover {
+  color: rgb(216, 166, 100);
+}
+
+.main-container {
+  position: relative;
+  background-image: url(banner-2.jpg);
+  width: 90%;
+  border-radius: 50px;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  margin: 20px auto;
+}
+
+.main-container h2 {
+  position: absolute;
+  top: 280px;
+  color: white;
+  font-size: 60px;
+  width: 40%;
+  left: 30px;
+}
+
+.main-container div {
+  position: absolute;
+  top: 20px;
+  background-color: #99e54d;
+  border-radius: 300px;
+  font-size: 25px;
+  width: 20%;
+  height: 38%;
+  margin: 20px;
+}
+
+.main-container h1 {
+  font-size: 70px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.main-container h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.main-container button {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  background-color: rgb(243, 177, 55);
+  color: white;
+  padding: 15px 45px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-container button:hover {
+  background-color: rgb(238, 198, 123);
+}
